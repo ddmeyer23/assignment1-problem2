@@ -12,7 +12,7 @@ var map = L.map('map').setView([37.69, -122.44], 12);
 $.getJSON("https://raw.githubusercontent.com/gbrunner/adv-python-for-gis-and-rs/master/Week%201/sf_crime.geojson",function(data){
    var Jason = L.icon({
     iconUrl: "https://img.icons8.com/color/48/000000/jason-voorhees.png",
-    iconSize: [40,31]
+    iconSize: [50,41]
   }); 
   L.geoJson(data  ,{
     pointToLayer: function(feature,latlng){
